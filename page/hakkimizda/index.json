@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hikâye",
+    "en": "Our story",
+    "ar": "قصتنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "xoyxbz",
+      "za4uku"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "2019'da kale altında başlayan, üç duraklı kurgusal kahve markası.",
+    "en": "A fictional three-stop coffee brand that began at the castle gate in 2019.",
+    "ar": "علامة قهوة افتراضية بثلاث محطات بدأت عند سفح القلعة عام 2019."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hikâye",
+    "en": "Our story",
+    "ar": "قصتنا"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T16:19:49.599Z",
+  "date": "2026-10-30"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "n6bjlzcvqf",
+  "name": {
+    "tr": "Masa ayır",
+    "en": "Book a table",
+    "ar": "احجز طاولة"
+  },
+  "description": {
+    "tr": "Masa ayırma talebi (demo).",
+    "en": "Table booking request (demo).",
+    "ar": "طلب حجز طاولة (تجريبي)."
+  },
+  "keyword": {
+    "tr": "masa, rezervasyon",
+    "en": "table, booking",
+    "ar": "طاولة، حجز"
+  },
+  "path": "teklif-al",
+  "icon": "event_seat",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "nv5fjw",
+      "5xeq8i"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Masa ayır",
+    "en": "Book a table",
+    "ar": "احجز طاولة"
+  },
+  "date": "2026-11-16T15:58:52.425Z",
+  "update": "2026-11-16T16:19:49.602Z"
+}

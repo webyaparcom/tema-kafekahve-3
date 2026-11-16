@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "id": "h78a6ccw59",
+      "name": {
+        "tr": "Kahvemiz",
+        "en": "Our coffee",
+        "ar": "قهوتنا"
+      },
+      "description": {
+        "tr": "Her durakta aynı dört söz.",
+        "en": "The same four promises at every stop.",
+        "ar": "الوعود الأربعة نفسها في كل محطة."
+      },
+      "path": "hizmetler",
+      "icon": "coffee",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "za4uku",
+          "nv5fjw"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Hikâye",
+        "en": "Our story",
+        "ar": "قصتنا"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "xoyxbz",
+          "za4uku"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "2019'da kale altında başlayan, üç duraklı kurgusal kahve markası.",
+        "en": "A fictional three-stop coffee brand that began at the castle gate in 2019.",
+        "ar": "علامة قهوة افتراضية بثلاث محطات بدأت عند سفح القلعة عام 2019."
+      }
+    },
+    {
+      "id": "n6bjlzcvqf",
+      "name": {
+        "tr": "Masa ayır",
+        "en": "Book a table",
+        "ar": "احجز طاولة"
+      },
+      "description": {
+        "tr": "Masa ayırma talebi (demo).",
+        "en": "Table booking request (demo).",
+        "ar": "طلب حجز طاولة (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "event_seat",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "nv5fjw",
+          "5xeq8i"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "name": {
+        "tr": "Duraklar",
+        "en": "Our stops",
+        "ar": "محطاتنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 3,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "5xeq8i",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Üç durağın adresi, saatleri ve haritası.",
+        "en": "Addresses, hours and map of the three stops.",
+        "ar": "عناوين المحطات الثلاث وساعاتها وخريطتها."
+      }
+    }
+  ],
+  "desc": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Çini Kahve",
+  "short_name": "Çini Kahve",
+  "description": "Çini Kahve Durakları: kale altı, istasyon ve kampüste üç küçük kahve durağı; yolda içilecek filtre, espresso ve Türk kahvesi. Demo site; içerik kurgusaldır.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3F68C7",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
