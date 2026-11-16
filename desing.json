@@ -1,0 +1,83 @@
+{
+  "header": [
+    "k8db01",
+    "29u8lc"
+  ],
+  "body": [
+    "4deehq",
+    "5xeq8i",
+    "k8mp01",
+    "za4uku",
+    "xoyxbz",
+    "nv5fjw"
+  ],
+  "footer": [
+    "hqevih",
+    "pojnm9"
+  ],
+  "headerdefault": [
+    "k8db01",
+    "29u8lc"
+  ],
+  "bodydefault": [],
+  "footerdefault": [
+    "hqevih",
+    "pojnm9"
+  ],
+  "headtop": "",
+  "headbottom": "<style id=\"wy-demo-bandi-menu\">#header>header[class*=\"-m10\"]:not([class*=\"-akista\"]){top:var(--mx-demo-bandi-h,0px)}</style>",
+  "colors": {
+    "lite": [
+      {
+        "name": "--color1--",
+        "value": "#FFFFFF"
+      },
+      {
+        "name": "--color2--",
+        "value": "#F0F3FB"
+      },
+      {
+        "name": "--bg--",
+        "value": "#F4F2EC"
+      },
+      {
+        "name": "--text--",
+        "value": "#171B26"
+      },
+      {
+        "name": "--button--",
+        "value": "#3F68C7"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#FFFFFF"
+      }
+    ],
+    "dark": [
+      {
+        "name": "--color1--",
+        "value": "#161A21"
+      },
+      {
+        "name": "--color2--",
+        "value": "#1B2029"
+      },
+      {
+        "name": "--bg--",
+        "value": "#0E1116"
+      },
+      {
+        "name": "--text--",
+        "value": "#F0EEEA"
+      },
+      {
+        "name": "--button--",
+        "value": "#5A7DCF"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#0E1116"
+      }
+    ]
+  }
+}

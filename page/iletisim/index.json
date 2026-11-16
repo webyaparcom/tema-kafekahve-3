@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Duraklar",
+    "en": "Our stops",
+    "ar": "محطاتنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "iletisim",
+  "url": "",
+  "path": "iletisim",
+  "index": 3,
+  "icon": "call",
+  "desing": {
+    "header": [],
+    "body": [
+      "5xeq8i",
+      "k8mp01"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Üç durağın adresi, saatleri ve haritası.",
+    "en": "Addresses, hours and map of the three stops.",
+    "ar": "عناوين المحطات الثلاث وساعاتها وخريطتها."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Duraklar",
+    "en": "Our stops",
+    "ar": "محطاتنا"
+  },
+  "keyword": {
+    "tr": "iletişim",
+    "en": "contact",
+    "ar": "اتصال"
+  },
+  "text": {},
+  "update": "2026-11-16T16:19:49.605Z",
+  "date": "2026-10-30"
+}

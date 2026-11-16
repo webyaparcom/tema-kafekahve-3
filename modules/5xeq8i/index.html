@@ -1,0 +1,91 @@
+<section class="modulex-iletisim-tente{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-iletisim-tente-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* iletisim-tente — Kart ızgarasını mekân metaforuna çevirir: repeating-linear-gradient tente + radial-gradient saçak, double çerçeveli eğik tabela ve parıltısı (background-position) kayan cam panolar — ailede vitrin/dükkân kurgulu tek modül. */
+  .modulex-iletisim-tente { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-iletisim-tente *, .modulex-iletisim-tente *::before, .modulex-iletisim-tente *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-iletisim-tente :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-iletisim-tente :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-iletisim-tente :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-iletisim-tente :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-iletisim-tente img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-iletisim-tente) img { height: auto; }
+  .modulex-iletisim-tente [hidden] { display: none !important; }
+  .modulex-iletisim-tente :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-iletisim-tente :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-iletisim-tente-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-iletisim-tente-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-iletisim-tente--bassiz .modulex-iletisim-tente-bas { display: none; }
+  .modulex-iletisim-tente-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-iletisim-tente-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-iletisim-tente-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-iletisim-tente-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-iletisim-tente-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-iletisim-tente-dugme:hover { transform: translateY(-2px); }
+  .modulex-iletisim-tente-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-iletisim-tente-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-iletisim-tente-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-iletisim-tente-dukkan { max-inline-size: 1100px; margin-inline: auto; }
+  .modulex-iletisim-tente-tente { position: relative; z-index: 1; block-size: 64px; margin-inline: -10px; border-start-start-radius: 10px; border-start-end-radius: 10px; background-image: repeating-linear-gradient(90deg, --accent-- 0 48px, color-mix(in srgb, --accent-- 18%, --bg--) 48px 96px); box-shadow: 0 10px 18px -10px color-mix(in srgb, --text-- 45%, transparent); transform-origin: top; animation: modulex-iletisim-tente-in 0.9s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
+  .modulex-iletisim-tente-tente::after { content: ""; position: absolute; inset-inline: 0; inset-block-start: 100%; block-size: 22px; background-image: radial-gradient(circle at 50% 0, --accent-- 0 23px, transparent 24px), radial-gradient(circle at 50% 0, color-mix(in srgb, --accent-- 18%, --bg--) 0 23px, transparent 24px); background-size: 96px 22px, 96px 22px; background-position: 0 0, 48px 0; background-repeat: repeat-x; }
+  @keyframes modulex-iletisim-tente-in { from { opacity: 0; transform: scaleY(0.2); } to { opacity: 1; transform: none; } }
+  .modulex-iletisim-tente-cephe { display: grid; gap: 18px; padding-block: 48px clamp(24px, 4vw, 40px); padding-inline: clamp(18px, 4vw, 44px); border: 6px solid color-mix(in srgb, --text-- 82%, --bg--); border-block-start: 0; border-end-start-radius: --yuvarlak--; border-end-end-radius: --yuvarlak--; background: --kartBg--; }
+  .modulex-iletisim-tente-tabela { justify-self: center; display: grid; justify-items: center; gap: 6px; max-inline-size: 100%; padding: 14px 30px; border: 3px double color-mix(in srgb, --bg-- 50%, transparent); border-radius: 10px; background: --text--; color: --bg--; text-align: center; box-shadow: 0 12px 24px -14px color-mix(in srgb, --text-- 80%, transparent); transform: rotate(-1deg); transition: transform 0.4s ease; }
+  .modulex-iletisim-tente-tabela:hover { transform: rotate(1deg); }
+  .modulex-iletisim-tente-tabela .modulex-iletisim-tente-ust { color: color-mix(in srgb, --bg-- 82%, --text--); }
+  .modulex-iletisim-tente-cephe > .modulex-iletisim-tente-metin { justify-self: center; max-inline-size: 640px; text-align: center; }
+  .modulex-iletisim-tente-camlar { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 14px; margin-block-start: 8px; }
+  .modulex-iletisim-tente-cam { position: relative; display: grid; align-content: start; gap: 8px; overflow: hidden; padding: 22px 20px; border: 4px solid color-mix(in srgb, --text-- 70%, --bg--); border-radius: 6px; background-color: --bg--; background-image: linear-gradient(115deg, transparent 0 38%, color-mix(in srgb, --accent-- 9%, transparent) 40% 46%, transparent 48%); background-size: 260% 100%; background-position: 100% 0; transition: background-position 0.8s ease, transform 0.3s ease; }
+  .modulex-iletisim-tente-cam:hover { background-position: 0 0; transform: translateY(-3px); }
+  .modulex-iletisim-tente-camik { color: --accentInk--; font-size: 30px; }
+  .modulex-iletisim-tente-cam .modulex-iletisim-tente-eylem { margin-block-start: auto; }
+  @media (max-width: 768px) {
+    .modulex-iletisim-tente-tente { block-size: 44px; margin-inline: -6px; }
+    .modulex-iletisim-tente-tabela { padding: 12px 18px; transform: none; }
+    .modulex-iletisim-tente-cephe { border-width: 4px; border-block-start: 0; }
+  }
+  .modulex-iletisim-tente-kikon { flex: none; display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: color-mix(in srgb, --accent-- 14%, transparent); color: --accentInk--; font-size: 24px; }
+  .modulex-iletisim-tente-ketiket { display: block; color: --muted--; font-size: 0.82rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; }
+  .modulex-iletisim-tente-deger { color: inherit; font-weight: 650; text-decoration: none; overflow-wrap: anywhere; transition: color 0.2s ease; }
+  a.modulex-iletisim-tente-deger:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-iletisim-tente-eylem { display: inline-flex; align-items: center; gap: 6px; color: --accentInk--; font-weight: 700; text-decoration: none; transition: gap 0.2s ease; }
+  .modulex-iletisim-tente-eylem:hover { gap: 10px; }
+  .modulex-iletisim-tente-eylem .material-symbols-outlined { font-size: 18px; }
+  .modulex-iletisim-tente-kopya { display: none; align-items: center; gap: 6px; min-height: 36px; padding: 6px 12px; border: 1px solid --cizgi--; border-radius: 999px; background: transparent; color: --text--; font: inherit; font-size: 0.85rem; font-weight: 650; transition: border-color 0.2s ease, background 0.2s ease; }
+  .modulex-iletisim-tente--kjs .modulex-iletisim-tente-kopya { display: inline-flex; }
+  .modulex-iletisim-tente-kopya:hover { border-color: --accent--; }
+  .modulex-iletisim-tente-kopya .material-symbols-outlined { font-size: 18px; }
+  .modulex-iletisim-tente--kopyalandi { background: color-mix(in srgb, --accent-- 14%, transparent); }
+  .modulex-iletisim-tente-sosyal { display: grid; gap: 10px; }
+  .modulex-iletisim-tente-sbaslik { color: --muted--; font-size: 0.9rem; font-weight: 650; }
+  .modulex-iletisim-tente-sliste { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-iletisim-tente-cip { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 8px 14px; border: 1px solid --cizgi--; border-radius: 999px; color: inherit; font-weight: 650; text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease; }
+  .modulex-iletisim-tente-cip:hover { border-color: --accent--; transform: translateY(-2px); }
+  .modulex-iletisim-tente-cikon { font-size: 18px; }
+  .modulex-iletisim-tente-harita { position: relative; overflow: hidden; min-height: 280px; border-radius: --yuvarlak--; background: --kartBg--; }
+  .modulex-iletisim-tente-iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .modulex-iletisim-tente-hdesen { position: absolute; inset: 0; display: grid; place-items: center; background-color: color-mix(in srgb, --accent-- 8%, --kartBg--); background-image: linear-gradient(color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px), radial-gradient(circle at 30% 40%, color-mix(in srgb, --accent-- 18%, transparent) 0 18%, transparent 19%); background-size: 36px 36px, 36px 36px, 100% 100%; }
+  .modulex-iletisim-tente-pin { color: --accentInk--; font-size: 56px; animation: modulex-iletisim-tente-zipla 2.4s ease-in-out infinite; }
+  @keyframes modulex-iletisim-tente-zipla { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  .modulex-iletisim-tente-hyol { position: absolute; inset-block-end: 16px; inset-inline-start: 16px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 10px 16px; border-radius: 999px; background: --bg--; color: --text--; font-weight: 700; text-decoration: none; box-shadow: 0 6px 20px color-mix(in srgb, --text-- 16%, transparent); transition: transform 0.2s ease; }
+  .modulex-iletisim-tente-hyol:hover { transform: translateY(-2px); }
+  .modulex-iletisim-tente-hyol .material-symbols-outlined { font-size: 18px; color: --accentInk--; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-iletisim-tente :is(.modulex-iletisim-tente-baslik, .modulex-iletisim-tente-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-iletisim-tente-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-iletisim-tente { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-iletisim-tente *, .modulex-iletisim-tente *::before, .modulex-iletisim-tente *::after { animation: none !important; transition: none !important; }
+  }
+</style>

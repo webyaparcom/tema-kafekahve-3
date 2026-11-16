@@ -1,0 +1,65 @@
+<section class="modulex-tanitim-kemer{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-tanitim-kemer-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* tanitim-kemer — Görsel bir mimari pencere gibi çerçevelenir (kemer + daire); dikdörtgen kart/çerçeve yok, yumuşak ve zarif. */
+  .modulex-tanitim-kemer { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-tanitim-kemer *, .modulex-tanitim-kemer *::before, .modulex-tanitim-kemer *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-tanitim-kemer :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-tanitim-kemer :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-tanitim-kemer :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-tanitim-kemer :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-tanitim-kemer img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-tanitim-kemer) img { height: auto; }
+  .modulex-tanitim-kemer [hidden] { display: none !important; }
+  .modulex-tanitim-kemer :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-tanitim-kemer :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-tanitim-kemer-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-tanitim-kemer-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-tanitim-kemer--bassiz .modulex-tanitim-kemer-bas { display: none; }
+  .modulex-tanitim-kemer-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-tanitim-kemer-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-tanitim-kemer-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-tanitim-kemer-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-tanitim-kemer-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-tanitim-kemer-dugme:hover { transform: translateY(-2px); }
+  .modulex-tanitim-kemer-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-tanitim-kemer-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-tanitim-kemer-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-tanitim-kemer-duzen { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(36px, 6vw, 96px); align-items: center; }
+  .modulex-tanitim-kemer-duzen--tek { grid-template-columns: minmax(0, 1fr); max-width: 760px; margin-inline: auto; text-align: center; }
+  .modulex-tanitim-kemer-duzen--tek .modulex-tanitim-kemer-yazi { justify-items: center; }
+  .modulex-tanitim-kemer-pencere { position: relative; margin: 0; padding-block-end: 36px; padding-inline-end: 36px; }
+  .modulex-tanitim-kemer-gorsel { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 999px 999px --yuvarlak-- --yuvarlak--; transition: transform 0.6s ease; }
+  .modulex-tanitim-kemer-pencere:hover .modulex-tanitim-kemer-gorsel { transform: translateY(-4px); }
+  .modulex-tanitim-kemer-daire { position: absolute; inset-block-end: 0; inset-inline-end: 0; width: 38%; aspect-ratio: 1; object-fit: cover; border: 6px solid --bg--; border-radius: 50%; box-shadow: 0 18px 30px -20px color-mix(in srgb, --text-- 60%, transparent); }
+  .modulex-tanitim-kemer-yazi { display: grid; gap: 18px; }
+  .modulex-tanitim-kemer-maddeler { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px 24px; margin-block: 6px; }
+  .modulex-tanitim-kemer-madde { display: flex; gap: 12px; text-align: start; }
+  .modulex-tanitim-kemer-mikon { flex: none; display: inline-grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background-color: color-mix(in srgb, --accent-- 14%, transparent); color: --accentInk--; font-size: 22px; }
+  @media (max-width: 768px) {
+    .modulex-tanitim-kemer-duzen { grid-template-columns: minmax(0, 1fr); }
+    .modulex-tanitim-kemer-pencere { max-width: 420px; }
+  }
+  .modulex-tanitim-kemer-bag { color: inherit; text-decoration: none; }
+  .modulex-tanitim-kemer-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-tanitim-kemer-mbaslik { font-size: 1.05rem; font-weight: 700; }
+  .modulex-tanitim-kemer-mmetin { color: --muted--; font-size: 0.95rem; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-tanitim-kemer :is(.modulex-tanitim-kemer-baslik, .modulex-tanitim-kemer-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-tanitim-kemer-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-tanitim-kemer { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-tanitim-kemer *, .modulex-tanitim-kemer *::before, .modulex-tanitim-kemer *::after { animation: none !important; transition: none !important; }
+  }
+</style>

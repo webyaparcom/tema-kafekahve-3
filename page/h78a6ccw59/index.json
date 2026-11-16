@@ -1,0 +1,40 @@
+{
+  "id": "h78a6ccw59",
+  "name": {
+    "tr": "Kahvemiz",
+    "en": "Our coffee",
+    "ar": "قهوتنا"
+  },
+  "description": {
+    "tr": "Her durakta aynı dört söz.",
+    "en": "The same four promises at every stop.",
+    "ar": "الوعود الأربعة نفسها في كل محطة."
+  },
+  "keyword": {
+    "tr": "kahve, reçete, kavrum",
+    "en": "coffee, recipe, roast",
+    "ar": "قهوة، وصفة، تحميص"
+  },
+  "path": "hizmetler",
+  "icon": "coffee",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "za4uku",
+      "nv5fjw"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kahvemiz",
+    "en": "Our coffee",
+    "ar": "قهوتنا"
+  },
+  "date": "2026-11-16T15:58:52.415Z",
+  "update": "2026-11-16T16:19:49.596Z"
+}
