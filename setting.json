@@ -4,12 +4,16 @@
   "description": {
     "tr": "Çini Kahve Durakları: kale altı, istasyon ve kampüste üç küçük kahve durağı; yolda içilecek filtre, espresso ve Türk kahvesi. Demo site; içerik kurgusaldır.",
     "en": "Cini Coffee Stops: three small coffee stops at the castle gate, the station and the campus; filter, espresso and Turkish coffee for the road. Demo site; content is fictional.",
-    "ar": "محطات تشيني للقهوة: ثلاث محطات قهوة صغيرة عند سفح القلعة والمحطة والحرم الجامعي؛ قهوة مقطرة وإسبريسو وقهوة تركية للطريق. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "محطات تشيني للقهوة: ثلاث محطات قهوة صغيرة عند سفح القلعة والمحطة والحرم الجامعي؛ قهوة مقطرة وإسبريسو وقهوة تركية للطريق. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Çini Kahve Durakları: drei kleine Kaffeestände unter der Burg, am Bahnhof und auf dem Campus; Filterkaffee, Espresso und türkischer Kaffee für unterwegs. Demo-Website; der Inhalt ist fiktiv.",
+    "ru": "Çini Kahve Durakları: три небольшие кофейные точки под крепостью, у вокзала и в кампусе; фильтр-кофе, эспрессо и турецкий кофе с собой. Демо-сайт; содержание вымышленное."
   },
   "keyword": {
     "tr": "kahve durağı, filtre kahve, espresso, türk kahvesi, şube, Gaziantep",
     "en": "coffee stop, filter coffee, espresso, Turkish coffee, branches, Gaziantep",
-    "ar": "محطة قهوة، قهوة مقطرة، إسبريسو، قهوة تركية، فروع، غازي عنتاب"
+    "ar": "محطة قهوة، قهوة مقطرة، إسبريسو، قهوة تركية، فروع، غازي عنتاب",
+    "de": "Kaffeestation, Filterkaffee, Espresso, türkischer Kaffee, Filiale, Gaziantep",
+    "ru": "кофейная точка, фильтр-кофе, эспрессо, турецкий кофе, филиал, Газиантеп"
   },
   "category": "Kurumsal",
   "name": "Çini Kahve",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,
