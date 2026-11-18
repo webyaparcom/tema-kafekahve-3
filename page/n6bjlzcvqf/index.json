@@ -3,17 +3,23 @@
   "name": {
     "tr": "Masa ayır",
     "en": "Book a table",
-    "ar": "احجز طاولة"
+    "ar": "احجز طاولة",
+    "de": "Reservieren",
+    "ru": "Бронь стола"
   },
   "description": {
     "tr": "Masa ayırma talebi (demo).",
     "en": "Table booking request (demo).",
-    "ar": "طلب حجز طاولة (تجريبي)."
+    "ar": "طلب حجز طاولة (تجريبي).",
+    "de": "Tischreservierungsanfrage (Demo).",
+    "ru": "Запрос на бронирование стола (демо)."
   },
   "keyword": {
     "tr": "masa, rezervasyon",
     "en": "table, booking",
-    "ar": "طاولة، حجز"
+    "ar": "طاولة، حجز",
+    "de": "Tisch, Reservierung",
+    "ru": "стол, бронирование"
   },
   "path": "teklif-al",
   "icon": "event_seat",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Masa ayır",
     "en": "Book a table",
-    "ar": "احجز طاولة"
+    "ar": "احجز طاولة",
+    "de": "Reservieren",
+    "ru": "Бронь стола"
   },
   "date": "2026-11-16T15:58:52.425Z",
   "update": "2026-11-16T16:19:49.602Z"

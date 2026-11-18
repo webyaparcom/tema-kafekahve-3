@@ -2,7 +2,9 @@
   "name": {
     "tr": "Duraklar",
     "en": "Our stops",
-    "ar": "محطاتنا"
+    "ar": "محطاتنا",
+    "de": "Haltepunkte",
+    "ru": "Остановки"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Üç durağın adresi, saatleri ve haritası.",
     "en": "Addresses, hours and map of the three stops.",
-    "ar": "عناوين المحطات الثلاث وساعاتها وخريطتها."
+    "ar": "عناوين المحطات الثلاث وساعاتها وخريطتها.",
+    "de": "Adressen, Öffnungszeiten und Karte der drei Haltestellen.",
+    "ru": "Адреса, часы работы и карта трех остановок."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Duraklar",
     "en": "Our stops",
-    "ar": "محطاتنا"
+    "ar": "محطاتنا",
+    "de": "Haltepunkte",
+    "ru": "Остановки"
   },
   "keyword": {
     "tr": "iletişim",
     "en": "contact",
-    "ar": "اتصال"
+    "ar": "اتصال",
+    "de": "Kontakt",
+    "ru": "контакты"
   },
   "text": {},
   "update": "2026-11-16T16:19:49.605Z",

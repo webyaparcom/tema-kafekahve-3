@@ -5,12 +5,16 @@
       "name": {
         "tr": "Kahvemiz",
         "en": "Our coffee",
-        "ar": "قهوتنا"
+        "ar": "قهوتنا",
+        "de": "Unser Kaffee",
+        "ru": "Наш кофе"
       },
       "description": {
         "tr": "Her durakta aynı dört söz.",
         "en": "The same four promises at every stop.",
-        "ar": "الوعود الأربعة نفسها في كل محطة."
+        "ar": "الوعود الأربعة نفسها في كل محطة.",
+        "de": "An jeder Station dieselben vier Versprechen.",
+        "ru": "На каждой остановке одни и те же четыре обещания."
       },
       "path": "hizmetler",
       "icon": "coffee",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Hikâye",
         "en": "Our story",
-        "ar": "قصتنا"
+        "ar": "قصتنا",
+        "de": "Geschichte",
+        "ru": "История"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -51,7 +57,9 @@
       "description": {
         "tr": "2019'da kale altında başlayan, üç duraklı kurgusal kahve markası.",
         "en": "A fictional three-stop coffee brand that began at the castle gate in 2019.",
-        "ar": "علامة قهوة افتراضية بثلاث محطات بدأت عند سفح القلعة عام 2019."
+        "ar": "علامة قهوة افتراضية بثلاث محطات بدأت عند سفح القلعة عام 2019.",
+        "de": "Fiktive Kaffeemarke mit drei Stationen, die 2019 am Tor der Burg begann.",
+        "ru": "Вымышленный бренд кофе с тремя точками, начавшийся в 2019 году у ворот замка."
       }
     },
     {
@@ -59,12 +67,16 @@
       "name": {
         "tr": "Masa ayır",
         "en": "Book a table",
-        "ar": "احجز طاولة"
+        "ar": "احجز طاولة",
+        "de": "Reservieren",
+        "ru": "Бронь стола"
       },
       "description": {
         "tr": "Masa ayırma talebi (demo).",
         "en": "Table booking request (demo).",
-        "ar": "طلب حجز طاولة (تجريبي)."
+        "ar": "طلب حجز طاولة (تجريبي).",
+        "de": "Tischreservierungsanfrage (Demo).",
+        "ru": "Запрос на бронирование стола (демо)."
       },
       "path": "teklif-al",
       "icon": "event_seat",
@@ -84,7 +96,9 @@
       "name": {
         "tr": "Duraklar",
         "en": "Our stops",
-        "ar": "محطاتنا"
+        "ar": "محطاتنا",
+        "de": "Haltepunkte",
+        "ru": "Остановки"
       },
       "status": "play",
       "id": "iletisim",
@@ -105,7 +119,9 @@
       "description": {
         "tr": "Üç durağın adresi, saatleri ve haritası.",
         "en": "Addresses, hours and map of the three stops.",
-        "ar": "عناوين المحطات الثلاث وساعاتها وخريطتها."
+        "ar": "عناوين المحطات الثلاث وساعاتها وخريطتها.",
+        "de": "Adressen, Öffnungszeiten und Karte der drei Haltestellen.",
+        "ru": "Адреса, часы работы и карта трех остановок."
       }
     }
   ],

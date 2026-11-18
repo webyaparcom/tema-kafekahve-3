@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kahvemiz",
     "en": "Our coffee",
-    "ar": "قهوتنا"
+    "ar": "قهوتنا",
+    "de": "Unser Kaffee",
+    "ru": "Наш кофе"
   },
   "description": {
     "tr": "Her durakta aynı dört söz.",
     "en": "The same four promises at every stop.",
-    "ar": "الوعود الأربعة نفسها في كل محطة."
+    "ar": "الوعود الأربعة نفسها في كل محطة.",
+    "de": "An jeder Station dieselben vier Versprechen.",
+    "ru": "На каждой остановке одни и те же четыре обещания."
   },
   "keyword": {
     "tr": "kahve, reçete, kavrum",
     "en": "coffee, recipe, roast",
-    "ar": "قهوة، وصفة، تحميص"
+    "ar": "قهوة، وصفة، تحميص",
+    "de": "Kaffee, Rezept, Röstung",
+    "ru": "кофе, рецепт, обжарка"
   },
   "path": "hizmetler",
   "icon": "coffee",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Kahvemiz",
     "en": "Our coffee",
-    "ar": "قهوتنا"
+    "ar": "قهوتنا",
+    "de": "Unser Kaffee",
+    "ru": "Наш кофе"
   },
   "date": "2026-11-16T15:58:52.415Z",
   "update": "2026-11-16T16:19:49.596Z"

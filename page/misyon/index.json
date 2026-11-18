@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Şehrin yoğun noktalarında iyi kahveyi bekletmeden sunmak.</p>",
     "en": "<h2>Our mission</h2>\n<p>To serve good coffee without delay at the city's busiest points.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم قهوة جيدة دون انتظار في أكثر نقاط المدينة ازدحامًا.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>تقديم قهوة جيدة دون انتظار في أكثر نقاط المدينة ازدحامًا.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Guten Kaffee an den belebtesten Punkten der Stadt ohne Wartezeit servieren.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Подавать хороший кофе без задержек в самых оживленных точках города.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T15:58:52.301Z",
   "update": "2026-11-16T16:19:49.609Z",
